@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@300;500&family=Hind+Siliguri&family=Lato:wght@700&family=Roboto&family=Roboto+Condensed:wght@300&family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@300;500&family=Changa&family=Hind+Siliguri&family=Lato:wght@700&family=Roboto&family=Roboto+Condensed:wght@300&family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Bebas+Neue&family=Cairo:wght@300;500&family=Changa&family=Hind+Siliguri&family=Lato:wght@700&family=Roboto&family=Roboto+Condensed:wght@300&family=Tajawal&display=swap');
+
+* {
+
+
+    width: fit-content;
+    background-attachment: fixed;
+
+}
+html
+{
+    height: fit-content;
+}
+body {
+    overflow-x: hidden;
+    height: fit-content;
+
+    background-image: url(/Photos/n3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Start of navigation bar*/
+ul {
+
+    background-image: none;
+}
+
+
+
+
+::selection {
+    background-color: black;
+    color: #0043FA;
+}
+
+.name_of_page {
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: -94.7px;
+    left: 277px;
+    background-image: none;
+    text-transform: capitalize;
+    font-family: 'Bebas Neue',
+        cursive;
+}
+
+.name_of_page:hover {
+    color: #0043FA;
+}
+
+.page_logo_link {
+    position: relative;
+    right: 350px;
+    top: 0px;
+}
+
+a {
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    background-image: none;
+    text-decoration: none;
+    position: relative;
+}
+
+a:hover {
+    color: #0043FA;
+}
+
+li {
+    font-family: 'Roboto',
+        sans-serif;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    position: relative;
+    left: 31vw;
+    bottom: 152px;
+    padding-top: 0px;
+    padding-right: 28px;
+    padding-bottom: 0px;
+    padding-left: 28px;
+    display: inline;
+    background-image: none;
+    font-weight: bold;
+}
+
+i {
+
+    padding-right: 0.3vw;
+
+}
+
+.logo {
+    background: none;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    width: 9.5%;
+    top: -38px;
+    left: -23px;
+    z-index: 1030;
+
+}
+
+nav {
+    margin: 0%;
+    height: 67px;
+    width: 100%;
+    background-image: none;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    right: 0%;
+    top: 0%;
+    position: fixed;
+    translate: 40px;
+    z-index: 1030;
+    border-radius: 2px;
+    margin-bottom: -80%;
+}
+.button_navbar {
+    padding: 8px 11px 8px 11px;
+    margin: 0px;
+    background-color: #0043FA;
+    border-radius: 4px;
+    position: relative;
+    right: 19px;
+    bottom: 3px;
+    transform: scale(1.9, 1.9);
+    text-transform: capitalize;
+}
+
+.button_navbar:hover {
+    color: #0043FA;
+    background-color: white;
+}
+
+.logo {
+    background: none;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    width: 9.5%;
+    top: -38px;
+    left: -23px;
+    z-index: 1030;
+
+}
+/*end of navigation bar*/
+.video_description {
+    padding: 0%;
+    margin: 0%;
+    background: none;
+    position: relative;
+    top: 7%;
+    left: 1%;
+    font-size: 120%;
+    line-height: 200%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+video {
+    width: 59%;
+
+    position: relative;
+    left: 39.6%;
+    bottom: 73%;
+
+    border-radius: 20px;
+
+}
+h1 {
+    font-family: 'Libre Franklin', sans-serif;
+    background-image: none;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left: 1%;
+    top: 4%;
+    font-size: 252%;
+
+}
+.video_container {
+    background: none;
+    padding: 0%;
+    margin: 0%;
+    background-color: #f2f2f29f;
+    position: relative;
+    top: 90px;
+    height: 32rem;
+    left: 1.2%;
+    width: 95%;
+    border-radius: 20px;
+    transition: 0.7s ease;
+}
+.video_container:hover
+{
+
+ background-color: #549aaff8;;
+}
+.marq{
+    padding: 0%;
+    margin: 8%;
+    justify-content: center;
+    font-size: 30px;
+    margin-left:30% ;
+    font-family: 'Roboto',
+    sans-serif;
+    text-transform: capitalize;
+    
+}
+
+h2 {
+
+    background: none;
+    margin: 0%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-right: 21.9%;
+    padding-left: 20.9%;
+    position: absolute;
+    top: 95%;
+    left: 0;
+    font-size: 225%;
+    background-color: rgba(0, 0, 0, 0.615);
+    color: white;
+    text-align: center;
+    transition: 0.7s ease;
+
+}
+
+h2:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.175);
+}
+table
+{
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    left: 10.8%;
+    top: 115%;
+}
+td
+{
+    color: white;
+    padding-bottom: 4%;
+
+}
+.reason
+{
+    background-image: none;
+    padding: 0%;
+    margin: 0%;
+    background-color: #f2f2f29f;
+    width: 80vw;
+    height: 20vw;
+    border-radius: 20px;
+    color: black;
+    transition: 0.7s ease;
+    
+}
+.reason:hover
+{
+    background-color: #549aaff8;
+}
+p
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    background: none;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    font-size: 1.6vw;
+    top: 1vw;
+    left: 1vw;
+    line-height: 2.3vw;
+}
+.photo_reason
+{
+    padding: 0%;
+    margin: 0%;
+    border-radius: 20px;
+    position: relative;
+    left: 54.3vw;
+    bottom: 16.7vw;
+    width: 31%;
+
+}
+footer {
+    padding: 0%;
+    margin: 0%;
+    z-index: 1000;
+    background: none;
+    position: relative;
+    top: 4380px;
+    height: 340px;
+    width: 1520px;
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    left: -8px;
+
+}
+
+.text_footer {
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    background: none;
+    text-transform: capitalize;
+    font-family: 'Bebas Neue',
+        cursive;
+    position: absolute;
+    top: 21px;
+    left: 62px;
+}
+.text_footer:hover {
+    color: #0043FA;
+}
+.logo_footer {
+    background: none;
+    padding: 0%;
+    margin: 0%;
+    width: 140px;
+    position: absolute;
+    top: -26px;
+    left: -32px;
+
+}
+
+.p_footer {
+
+    font-family: 'Hind Siliguri',
+        sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background: none;
+    position: absolute;
+    top: 73px;
+    left: 20px;
+    font-size: 17px;
+    line-height: 2.3vw;
+}
+
+/* h5 {
+    font-family: 'Lato',
+        sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background: none;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 1080px;
+    font-size: 30px;
+} */
+
+/* .names li{
+    font-family: 'Roboto Condensed',
+    sans-serif;
+    display: block;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left: 942px;
+    bottom: -73px;
+} */
+/* .names_2 li {
+    font-family: 'Roboto Condensed',
+    sans-serif;
+    display: block;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+bottom: 69px;
+left: 1131px;
+}
+.names li , .names_2 li {
+padding-bottom: 18px;
+}
+
+.all_names
+{
+    background: none;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left: 25px;
+} */
+.copyright {
+    background: none;
+    position: relative;
+    left: 620px;
+    top: 209.6px;
+    font-size: 21px;
+    font-family: 'Roboto',
+        sans-serif;
+    direction: ltr;
+}
+.social_media i {
+
+    font-size: 29px;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    top: 3.7em;
+    left: 429.5px;
+}
+
+.copyright_link {
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    top: 0px;
+    text-transform: capitalize;
+    font-family: 'Bebas Neue',
+        cursive;
+    font-size: 23px;
+    background: none;
+}
+
+.names {
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    text-transform: capitalize;
+    background: none;
+    padding: 0%;
+    margin: 0%;
+    width: 260px;
+    position: relative;
+    left: 75vw;
+    line-height: 1.1vw;
+    top: 129.5px;
+    transform: scale(1.24, 1.24);
+    font-weight: bolder;
+}
+
+.names tbody {
+    font-size: 15px;
+    background: none;
+    text-transform: capitalize;
+    text-align: center;
+    transform: scale(1.24, 1.24);
+
+}
+
+caption {
+    font-family: 'Noto Sans',
+        sans-serif;
+    text-transform: capitalize;
+    background: none;
+    display: table-caption;
+    position: absolute;
+    bottom: 113.5px;
+    left: 70px;
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+.num_of_pg {
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    bottom: 6.2vw;
+    left: 0.7vw;
+    font-size: 0.96vw;
+}
+
+.social_media {
+
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    top: 0vw;
+    transform: scale(1.24, 1.24);
+}
+
+
+
+
+
+.social_media td {
+    padding: 6.1px;
+}

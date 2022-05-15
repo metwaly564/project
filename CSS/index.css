@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Bebas+Neue&family=Cairo:wght@300;500&family=Changa&family=Hind+Siliguri&family=Lato:wght@700&family=Roboto&family=Roboto+Condensed:wght@300&family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Bebas+Neue&family=Cairo:wght@300;500&family=Changa&family=Hind+Siliguri&family=Lato:wght@700&family=Oswald&family=Roboto&family=Roboto+Condensed:wght@300&family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@300;500&family=Hind+Siliguri&family=Lato:wght@700&family=Roboto&family=Roboto+Condensed:wght@300&family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@300;500&family=Changa&family=Hind+Siliguri&family=Lato:wght@700&family=Roboto&family=Roboto+Condensed:wght@300&family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Bebas+Neue&family=Cairo:wght@300;500&family=Changa&family=Hind+Siliguri&family=Lato:wght@700&family=Roboto&family=Roboto+Condensed:wght@300&family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Bebas+Neue&family=Cairo:wght@300;500&family=Changa&family=Hind+Siliguri&family=Lato:wght@700&family=Noto+Sans:wght@500&family=Oswald&family=Roboto&family=Roboto+Condensed:wght@300&family=Tajawal&display=swap');
+
+
+
+* {
+    width: fit-content;
+    height: fit-content;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(/n3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+
+}
+
+
+ul {
+
+    background-image: none;
+}
+
+
+
+
+::selection {
+    background-color: black;
+    color: #0043FA;
+}
+
+.name_of_page {
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: -94.7px;
+    left: 277px;
+    background-image: none;
+    text-transform: capitalize;
+    font-family: 'Bebas Neue',
+        cursive;
+}
+
+.name_of_page:hover {
+    color: #0043FA;
+}
+
+.page_logo_link {
+    position: relative;
+    right: 350px;
+    top: 0px;
+}
+
+a {
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    background-image: none;
+    text-decoration: none;
+    position: relative;
+}
+
+a:hover {
+    color: #0043FA;
+}
+
+li {
+    font-family: 'Roboto',
+        sans-serif;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    position: relative;
+    left: 31vw;
+    bottom: 152px;
+    padding-top: 0px;
+    padding-right: 28px;
+    padding-bottom: 0px;
+    padding-left: 28px;
+    display: inline;
+    background-image: none;
+    font-weight: bold;
+}
+
+i {
+
+    padding-right: 0.3vw;
+
+}
+
+.logo {
+    background: none;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    width: 9.5%;
+    top: -38px;
+    left: -23px;
+    z-index: 1030;
+
+}
+
+nav {
+    margin: 0%;
+    height: 67px;
+    width: 100%;
+    background-image: none;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    right: 0%;
+    top: 0%;
+    position: fixed;
+    translate: 40px;
+    z-index: 1030;
+    border-radius: 2px;
+    margin-bottom: -80%;
+}
+
+.button_navbar {
+    padding: 8px 11px 8px 11px;
+    margin: 0px;
+    background-color: #0043FA;
+    border-radius: 4px;
+    position: relative;
+    right: 19px;
+    bottom: 3px;
+    transform: scale(1.9, 1.9);
+}
+
+.button_navbar:hover {
+    color: #0043FA;
+    background-color: white;
+}
+
+table {
+    width: fit-content;
+    height: min-content;
+    width: min-content;
+    position: relative;
+    top: 15em;
+    left: 17%;
+    transform: scale(1.36);
+    margin-bottom: 22em;
+
+
+
+}
+
+td {
+    padding: 0.4vw;
+}
+
+.english_arabic_books {
+    background-image: none;
+    background-color: #f2f2f2e7;
+    padding: 0px;
+    margin: 0%;
+    width: 23.2vw;
+    height: 325px;
+    border-radius: 20px;
+    transition: 0.6s ease;
+
+}
+
+.english_arabic_books:hover {
+
+    transform: scale(1.022, 1.022);
+    background-color: #549aaff8;
+
+
+}
+
+.english_p {
+    font-family: 'Cairo',
+        sans-serif;
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    background-image: none;
+    font-size: 17px;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    bottom: 114px;
+    left: 127px;
+}
+
+.english_title {
+    font-family: 'Oswald',
+        sans-serif;
+    background-image: none;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    top: 1.2vw;
+    left: 10px;
+    font-size: 26px;
+}
+
+.english_covers {
+    background-image: none;
+
+    background-image: none;
+    padding: 0%;
+    margin: 0%;
+    width: 30%;
+    position: relative;
+    bottom: -40px;
+    left: 9px;
+    border-radius: 6px;
+}
+
+b {
+    background: none;
+    padding: 0%;
+    margin: 0%;
+    font-size: 23px;
+    position: relative;
+    /* bottom: 84px;
+    left: 127px; */
+    /* bottom: 104px;
+    left: 241px; */
+    bottom: 176px;
+    left: 9px;
+}
+
+h2 {
+    background: none;
+    color: whitesmoke;
+    font-size: 41px;
+    position: relative;
+    top: 6vw;
+    left: 55%;
+    padding: 16px 8px;
+    margin-top: 0.6em;
+    margin-bottom: 0.4em;
+    margin-bottom: 3vw;
+    background-color: black;
+    border-radius: 9px;
+    transition: 0.5s ease;
+}
+
+h2:hover {
+    background-color: #f2f2f2e7;
+    color: black;
+}
+
+
+
+.arabic_title {
+    background: none;
+    padding: 11px;
+    font-size: 33px;
+    position: relative;
+    left: 86px;
+    top: 15px;
+    float: none;
+    direction: rtl;
+    text-align: center;
+
+}
+
+h3 {
+    background: none;
+    padding: 20 0 20 0;
+    margin: 0%;
+}
+
+
+.Arabic_covers {
+    padding: 0%;
+    margin: 0%;
+    background: none;
+    position: relative;
+    width: 30%;
+    left: 238px;
+    top: 38px;
+    border-radius: 5.2px;
+}
+
+.Arabic_description {
+    background: none;
+    padding: 0%;
+    margin: 0%;
+
+
+}
+
+section {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    background: none;
+    position: relative;
+    top: 39px;
+    left: -121px;
+    float: right;
+    direction: rtl;
+    font-size: 15.5px;
+    font-weight: bold;
+
+}
+
+.arabic_price {
+    position: relative;
+    float: none;
+    top: 42px;
+    left: 261px;
+
+}
+
+.arabic_author {
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    top: 46px;
+    left: 207px;
+    direction: rtl;
+}
+
+.arabic_autho {
+    font-family: 'Roboto condensed', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left: 57.8%;
+    top: 15%;
+    float: none;
+}
+
+.arabic_autho span {
+    font-weight: bolder;
+}
+
+.arabic_nm_page {
+
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    top: 51px;
+    left: 68%;
+
+}
+
+.arabic_author span,
+.arabic_nm_page span {
+    font-weight: bold;
+}
+
+.button_buy,
+.button_buy_ar {
+    padding: 0.49vw;
+    margin: 0%;
+    font-size: 1.1vw;
+    font-weight: bold;
+    background-color: #0db3eb;
+    border-radius: 7px;
+    border: transparent;
+}
+
+.button_buy {
+    position: relative;
+    bottom: 7.3em;
+    left: 9.5em;
+}
+
+.button_buy_ar {
+    direction: rtl;
+    position: relative;
+    top: 8.5%;
+    left: 13px;
+    float: left;
+}
+
+.button_buy_ar:hover {
+    color: #eaecec;
+    background-color: rgba(0, 0, 0, 0.09);
+}
+
+.button_buy:hover {
+    background-color: rgba(0, 0, 0, 0.09);
+    color: #eaecec;
+
+
+}
+
+
+/*start of footer*/
+footer {
+    padding: 0% 0.4%;
+    margin: 0%;
+    z-index: 1000;
+    background: none;
+    position: absolute;
+    bottom: -385%;
+    height: 340px;
+    width: 99%;
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    left: 0.01%;
+}
+
+.text_footer {
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    background: none;
+    text-transform: capitalize;
+    font-family: 'Bebas Neue',
+        cursive;
+    position: absolute;
+    top: 21px;
+    left: 62px;
+}
+
+.text_footer:hover {
+    color: #0043FA;
+}
+
+.logo_footer {
+    background: none;
+    padding: 0%;
+    margin: 0%;
+    width: 140px;
+    position: absolute;
+    top: -26px;
+    left: -32px;
+
+}
+
+.p_footer {
+
+    font-family: 'Hind Siliguri',
+        sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background: none;
+    position: absolute;
+    top: 73px;
+    left: 20px;
+    font-size: 17px;
+    line-height: 2.3vw;
+}
+
+h5 {
+    font-family: 'Lato',
+        sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background: none;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 1080px;
+    font-size: 30px;
+}
+
+/* .names li{
+    font-family: 'Roboto Condensed',
+    sans-serif;
+    display: block;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left: 942px;
+    bottom: -73px;
+} */
+/* .names_2 li {
+    font-family: 'Roboto Condensed',
+    sans-serif;
+    display: block;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+bottom: 69px;
+left: 1131px;
+}
+.names li , .names_2 li {
+padding-bottom: 18px;
+}
+
+.all_names
+{
+    background: none;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left: 25px;
+} */
+.copyright {
+    background: none;
+    position: relative;
+    left: 41%;
+    top: 212px;
+    font-size: 21.5px;
+    font-family: 'Roboto',
+        sans-serif;
+    direction: ltr;
+}
+
+.copyright_link {
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    top: 0px;
+    text-transform: capitalize;
+    font-family: 'Bebas Neue',
+        cursive;
+    font-size: 22px;
+    background: none;
+}
+
+.names {
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    text-transform: capitalize;
+    background: none;
+    padding: 0%;
+    margin: 0%;
+    width: 260px;
+    position: relative;
+    left: 75vw;
+    line-height: 1vw;
+    top: 8vw;
+    transform: scale(1.24, 1.24);
+    font-weight: bolder;
+}
+
+.names tbody {
+    font-size: 15px;
+    background: none;
+    text-transform: capitalize;
+    text-align: center;
+    transform: scale(1.28, 1.24);
+
+}
+
+caption {
+    font-family: 'Noto Sans',
+        sans-serif;
+    text-transform: capitalize;
+    background: none;
+    display: table-caption;
+    position: absolute;
+    bottom: 106px;
+    left: 71px;
+    font-size: 22px;
+}
+
+.book_author {
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    bottom: 6.8vw;
+    left: 0.6vw;
+}
+
+.book_author span,
+.num_of_pg span {
+    text-transform: capitalize;
+    padding: 0%;
+    margin: 0%;
+    font-weight: bolder;
+}
+
+.num_of_pg {
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    bottom: 6.2vw;
+    left: 0.7vw;
+    font-size: 0.96vw;
+}
+
+.social_media {
+
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    top: 0vw;
+    transform: scale(1.24, 1.24);
+}
+
+
+
+.social_media i {
+
+    font-size: 29px;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    top: 105px;
+    left: 12.2em;
+}
