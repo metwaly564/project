@@ -293,7 +293,7 @@ button {
     cursor: pointer;
     user-select: none;
     position: absolute;
-    top: 154%;
+    bottom: -21em;
     left: 42%;
     transition: 0.4s ease;
 }
