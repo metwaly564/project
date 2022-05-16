@@ -44,12 +44,11 @@ ul {
     color: white;
     position: relative;
     top: -94.7px;
-    left: 277px;
+    left: 461px;
     background-image: none;
     text-transform: capitalize;
-    font-family: 'Bebas Neue',
-        cursive;
-            transition: 0.2s ease;
+    font-family: 'Bebas Neue', cursive;
+    transition: 0.2s ease; 
 }
 
 .name_of_page:hover {
@@ -58,7 +57,7 @@ ul {
 
 .page_logo_link {
     position: relative;
-    right: 350px;
+    right: 386px;
     top: 0px;
 }
 
@@ -107,9 +106,8 @@ i {
     position: relative;
     width: 9.5%;
     top: -38px;
-    left: -23px;
+    left: 208px;
     z-index: 1030;
-
 }
 
 nav {
