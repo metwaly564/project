@@ -217,6 +217,8 @@ td {
     bottom: -40px;
     left: 9px;
     border-radius: 6px;
+    box-shadow: 0px 1px 7px black ;
+
 }
 
 b {
@@ -285,6 +287,8 @@ h3 {
     left: 238px;
     top: 38px;
     border-radius: 5.2px;
+    box-shadow: 0px 1px 7px black ;
+
 }
 
 .Arabic_description {
