@@ -42,7 +42,9 @@ ul {
     background-image: none;
     text-transform: capitalize;
     font-family: 'Bebas Neue',
-        cursive;
+cursive;
+    transition: 0.2s ease;
+
 }
 
 .name_of_page:hover {
@@ -62,6 +64,8 @@ a {
     background-image: none;
     text-decoration: none;
     position: relative;
+        transition: 0.2s ease;
+
 }
 
 a:hover {
@@ -477,6 +481,8 @@ left: -8px;
     position: absolute;
     top: 21px;
     left: 62px;
+        transition: 0.2s ease;
+
 }
 .text_footer:hover {
     color: #0043FA;
