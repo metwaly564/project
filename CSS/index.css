@@ -36,20 +36,7 @@ ul {
     color: #0043FA;
 }
 
-.name_of_page {
-    margin: 0%;
-    padding: 0%;
-    font-weight: bold;
-    font-size: 40px;
-    color: white;
-    position: relative;
-    top: -94.7px;
-    left: 461px;
-    background-image: none;
-    text-transform: capitalize;
-    font-family: 'Bebas Neue', cursive;
-    transition: 0.2s ease; 
-}
+
 .name_of_page 
 {
     margin: 0%;
