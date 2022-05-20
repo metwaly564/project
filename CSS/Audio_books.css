@@ -395,6 +395,8 @@ border-radius: 20px;
 }
  .arabic_books:hover {
      background-color: #549aaff8;
+             box-shadow: 0px 1px 15px black;
+
  }
 .english_cat
 {
